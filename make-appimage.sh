@@ -8,15 +8,15 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/icons/quickgui_512.png
+export ICON=/usr/share/icons/hicolor/256x256/apps/quickgui.png
 export DESKTOP=/usr/share/applications/quickgui.desktop
 
 # Deploy dependencies
 quick-sharun \
-	/opt/quickgui/quickgui \
-	/usr/bin/quickemu    \
-	/usr/bin/quickget    \
-	/usr/bin/quickreport \
+	/usr/share/quickgui/quickgui \
+	/usr/bin/quickemu            \
+	/usr/bin/quickget            \
+	/usr/bin/quickreport         \
 	/usr/bin/bash
 
 # Additional changes can be done in between here
