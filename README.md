@@ -1,5 +1,11 @@
 <div align="center">
 
+# ⚠️ This application is [too broken](https://github.com/pkgforge-dev/Anylinux-AppImages/issues/408#issuecomment-4149090624) ⚠️
+
+Once upstream makes a new stable release that is not broken, this repo will be unarchived.
+
+---
+
 # Quickgui-AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Quickgui-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Quickgui-AppImage-Enhanced/releases/latest)
